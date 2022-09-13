@@ -1,0 +1,28 @@
+.btn {
+  background-image: linear-gradient(90deg, #25aae1, #40e495, #30dd8a, #2bb673);
+  border: none;
+  width: auto;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  height: 56px;
+  min-width: 180px;
+  line-height: 56px;
+  text-decoration: none;
+  padding: 0 35px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  font-family: "Quicksand";
+  border-radius: 50px;
+  margin-right: 20px;
+  
+  &:hover {
+    background-image: linear-gradient(90deg, #2583ab, #35a46e, #1d8352, #14623c);
+    transition: all 0.4s ease-in-out;
+  }
+  
+}
